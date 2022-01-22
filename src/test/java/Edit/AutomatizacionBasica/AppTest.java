@@ -46,7 +46,7 @@ public class AppTest
         
         //4-Escribir las palabra a buscar
         
-        WebElement txtBuscador  = driver.findElement(By.xpat("//header/nav[1]/div[1]/div[1]/span[1]/input[1]")); // se identifica el elemento 
+        WebElement txtBuscador  = driver.findElement(By.xpath("//header/nav[1]/div[1]/div[1]/span[1]/input[1]")); // se identifica el elemento 
         
         txtBuscador.sendKeys("java");
         
